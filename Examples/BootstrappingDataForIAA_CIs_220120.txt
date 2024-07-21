@@ -1,0 +1,20 @@
+Concept	TP	FP	FN	TN
+micro-average	14774	4055	4047	0
+Age	132	10	4	0
+CloseContact	24	5	9	0
+CommunalSetting	6	14	14	0
+Comorbidity	1409	403	378	0
+Death	1	1	0	0
+Gender	124	13	10	0
+HealthcareWorker	0	1	0	0
+Height	0	4	8	0
+Hospitalization	33	46	35	0
+ICUStay	10	8	2	0
+LabName	2832	320	371	0
+MedicationName	2180	239	151	0
+PregnancyStatus	4	0	8	0
+Section Header	4443	2111	2008	0
+SmokingStatus	52	8	17	0
+Symptom	3523	866	1014	0
+Travel	1	0	0	0
+Weight	0	6	18	0
