@@ -256,7 +256,7 @@ public class Bootstrapper {
 
 	public static void main(String[] args) {
 
-		RunType runType = RunType.MULTI_VALUE_SENSITIVITY;
+		RunType runType = RunType.MULTI_VALUE_F1;
 
 		switch (runType) {
 		case BASE_CASE: {
@@ -301,7 +301,7 @@ public class Bootstrapper {
 
 		case MULTI_VALUE_F1: {
 			Path outcomesPath = Path.of(
-					"C:\\Users\\gobbelgt\\OneDrive - VUMC\\CirrhosisProject\\BootstrappingDataForLiverCirrhosisNLPPublication_240322.txt");
+					"C:/Users/gtony/OneDrive - VUMC/Grants/ArchivedGrants_211022/MathenyCirrhosis/Manuscripts/CirrhosisConfidenceIntervalCICalculations_240720.txt");
 			int iterations = ITERATIONS;
 			double confidenceIntervalRange = CONFIDENCE_INTERVAL_RANGE;
 			Optional<Map<String, PerformanceMetric>> performanceMetrics = getPerformanceMetricFromPath(outcomesPath,
@@ -351,7 +351,7 @@ public class Bootstrapper {
 
 		case MULTI_VALUE_PPV: {
 			Path outcomesPath = Path.of(
-					"C:\\Users\\gobbelgt\\OneDrive - VUMC\\CirrhosisProject\\BootstrappingDataForLiverCirrhosisNLPPublication_240322.txt");
+					"C:/Users/gtony/OneDrive - VUMC/Grants/ArchivedGrants_211022/MathenyCirrhosis/Manuscripts/CirrhosisConfidenceIntervalCICalculations_240720.txt");
 			int iterations = ITERATIONS;
 			double confidenceIntervalRange = CONFIDENCE_INTERVAL_RANGE;
 			Optional<Map<String, PerformanceMetric>> performanceMetrics = getPerformanceMetricFromPath(outcomesPath,
@@ -383,7 +383,7 @@ public class Bootstrapper {
 
 		case MULTI_VALUE_SENSITIVITY: {
 			Path outcomesPath = Path.of(
-					"C:\\Users\\gobbelgt\\OneDrive - VUMC\\CirrhosisProject\\BootstrappingDataForLiverCirrhosisNLPPublication_240322.txt");
+					"C:/Users/gtony/OneDrive - VUMC/Grants/ArchivedGrants_211022/MathenyCirrhosis/Manuscripts/CirrhosisConfidenceIntervalCICalculations_240720.txt");
 			int iterations = ITERATIONS;
 			double confidenceIntervalRange = CONFIDENCE_INTERVAL_RANGE;
 			Optional<Map<String, PerformanceMetric>> performanceMetrics = getPerformanceMetricFromPath(outcomesPath,
@@ -398,8 +398,7 @@ public class Bootstrapper {
 			break;
 
 		case MULTI_VALUE_SPECIFICITY: {
-			Path outcomesPath = Path.of("C:/Users/gtony/OneDrive - VUMC/Grants/ViraniStatins/"
-					+ "Manuscripts/NLP Canary Tool/ResultsData/StructuredVsUnstructuredVsBoth_TP_FP_TN_FN_211017.txt");
+			Path outcomesPath = Path.of("C:/Users/gtony/OneDrive - VUMC/Grants/ArchivedGrants_211022/MathenyCirrhosis/Manuscripts/CirrhosisConfidenceIntervalCICalculations_240720.txt");
 			int iterations = ITERATIONS;
 			double confidenceIntervalRange = CONFIDENCE_INTERVAL_RANGE;
 			Optional<Map<String, PerformanceMetric>> performanceMetrics = getPerformanceMetricFromPath(outcomesPath,
